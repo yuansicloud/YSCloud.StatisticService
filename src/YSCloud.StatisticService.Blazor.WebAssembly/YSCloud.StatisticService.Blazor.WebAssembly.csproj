@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.AspNetCore.Components.WebAssembly.Theming" Version="4.3.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="YSCloud.StatisticService.Blazor" Version="4.3.3" />
+        <ProjectReference Include="..\YSCloud.StatisticService.HttpApi.Client\YSCloud.StatisticService.HttpApi.Client.csproj" />
+    </ItemGroup>
+
+</Project>
